@@ -1,4 +1,4 @@
-# 💡 mentoria_juliodelima
+# 💡 Mentoria Julio de Lima
 
 Repositório dedicado aos exercícios práticos da **Mentoria 2.0 com Júlio de Lima**.  
 Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaScript**, preparando a base para o uso de frameworks modernos.
