@@ -1,4 +1,4 @@
-# 💸 Aula 1 – 
+# 💸 Aula 1 – Entendendo a estrutura JavaScript e variáveis
 
 📅 **Data:** 10/06/2025  
 📚 **Mentoria:** [Mentoria 2.0 – Júlio de Lima](https://mentoria.juliodelima.com.br/)
