@@ -33,9 +33,12 @@ const descontoProduto = valorDoProduto - valorDesconto;
 
 // Exiba o resultado com Desconto
 console.log(`Você pagará R$ ${descontoProduto.toFixed(2)}`);
-
+```
 
 ### ✅Exemplo 2 – Desconto aplicado em porcentagem
+
+```javascript
+
 // Valor original do produto aplicando 10% de Desconto
 const valorDoProduto = 55.0;
 
@@ -50,19 +53,27 @@ const valorFinalDoProduto = valorDoProduto - valorDesconto;
 
 // Exiba o resultado com Desconto
 console.log(`Você pagará R$ ${valorFinalDoProduto.toFixed(2)}`);
+```
 
 ---
 
+
 ### ✅ Exemplo 3 – Usando conceito de Função
+
+```javascript
 function calculaDesconto(valorDoDesconto, valorDoProduto) {
   return valorDoProduto - valorDoDesconto;
 }
 
 const valorFinalDoProduto = calculaDesconto(10.0, 55.0);
 console.log(valorFinalDoProduto);
+```
+
 ---
 
 ### ✅ Exemplo 4 – Usando conceito de Função
+```javascript
+
 // Biblioteca
 function calcularDesconto(valorDoDesconto, valorDoProduto) {
   // Cálculo do Desconto
@@ -80,6 +91,7 @@ const valorFinalDaBicicleta = calcularDesconto(995.00, 19995.38)
 console.log(valorFinalDaTrackinas)
 console.log(valorFinalDoPlayStation)
 console.log(valorFinalDaBicicleta)
+```
 
 ---
 
