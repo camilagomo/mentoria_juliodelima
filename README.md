@@ -16,7 +16,7 @@ Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaSc
   Exploração inicial da linguagem JavaScript, estrutura de um arquivo `.js`, declaração e uso de variáveis, tipos de dados e boas práticas iniciais.
 
 - [Aula 2 – Estrutura Condicional e Funções](lessons/aula2.md)  
-  Aprendizado sobre `if`, `else if`, `else`, operadores lógicos e funções simples aplicadas em problemas reais.
+  Aprendizado sobre operadores lógicos e funções simples aplicadas em problemas reais.
 
 ## Aulas futuras
 
