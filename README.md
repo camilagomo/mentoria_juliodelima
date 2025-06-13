@@ -8,17 +8,23 @@ Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaSc
 ---
 
 ## 📚 Aulas
+# 📘 Acompanhamento das Aulas – Mentoria Júlio de Lima
 
-### Aula 1 – Entendendo a estrutura JavaScript e variáveis
-Exploração inicial da linguagem JavaScript, estrutura de um arquivo `.js`, declaração e uso de variáveis, tipos de dados e boas práticas iniciais.
+## Aulas concluídas
 
-### Aula 2 – Estrutura Condicional e Funções
-Aprendizado sobre `if`, `else if`, `else`, operadores lógicos e comparação, aplicando condições em problemas do dia a dia.
+- [Aula 1 – Entendendo a estrutura JavaScript e variáveis](aula1.md)  
+  Exploração inicial da linguagem JavaScript, estrutura de um arquivo `.js`, declaração e uso de variáveis, tipos de dados e boas práticas iniciais.
 
-### Aula 3 – *(em breve)*  
-### Aula 4 – *(em breve)*  
-### Aula 5 – *(em breve)*  
-### Aula 6 – *(em breve)*  
+- [Aula 2 – Estrutura Condicional e Funções](aula2.md)  
+  Aprendizado sobre `if`, `else if`, `else`, operadores lógicos e funções simples aplicadas em problemas reais.
+
+## Aulas futuras
+
+- Aula 3 – *(em breve)*
+- Aula 4 – *(em breve)*
+- Aula 5 – *(em breve)*
+- Aula 6 – *(em breve)*
+
 
 ---
 
