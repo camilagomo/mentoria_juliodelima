@@ -12,10 +12,10 @@ Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaSc
 
 ## Aulas concluídas
 
-- [Aula 1 – Entendendo a estrutura JavaScript e variáveis](aula1.md)  
+- [Aula 1 – Entendendo a estrutura JavaScript e variáveis](lessons/aula1.md)  
   Exploração inicial da linguagem JavaScript, estrutura de um arquivo `.js`, declaração e uso de variáveis, tipos de dados e boas práticas iniciais.
 
-- [Aula 2 – Estrutura Condicional e Funções](aula2.md)  
+- [Aula 2 – Estrutura Condicional e Funções](lessons/aula2.md)  
   Aprendizado sobre `if`, `else if`, `else`, operadores lógicos e funções simples aplicadas em problemas reais.
 
 ## Aulas futuras
