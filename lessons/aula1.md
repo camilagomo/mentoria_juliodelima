@@ -33,6 +33,7 @@ const resultadoEmReais = quantidadeDeDolares * valorReal;
 // Escreva o resultado da sua conta
 console.log(resultadoEmReais);
 
+---
 
 ## 🧪 Como executar o código no VS Code
 
