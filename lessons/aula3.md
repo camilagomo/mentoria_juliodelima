@@ -9,7 +9,7 @@
 
 Nesta aula, colocamos em prática conceitos essenciais de **lógica de programação**, com foco em:
 
-- 
+- Reforçando conceito de funções
 - 
 - 
 - 
