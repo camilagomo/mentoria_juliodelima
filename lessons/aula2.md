@@ -13,7 +13,7 @@ Nesta aula, colocamos em prática conceitos essenciais de **lógica de programa�
 - Operações matemáticas: subtração e porcentagem
 - `console.log()` com mensagens personalizadas
 - Uso da função `.toFixed(2)` para formatação de valores
-- Criação de **funções reutilizáveis** para cálculo de desconto
+- Criação de **funções reutilizáveis** para cálculo de desconto de um produto
 
 ---
 
