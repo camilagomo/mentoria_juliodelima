@@ -51,6 +51,7 @@ const valorFinalDoProduto = valorDoProduto - valorDesconto;
 // Exiba o resultado com Desconto
 console.log(`Você pagará R$ ${valorFinalDoProduto.toFixed(2)}`);
 
+---
 
 ### ✅ Exemplo 3 – Usando conceito de Função
 function calculaDesconto(valorDoDesconto, valorDoProduto) {
@@ -59,7 +60,28 @@ function calculaDesconto(valorDoDesconto, valorDoProduto) {
 
 const valorFinalDoProduto = calculaDesconto(10.0, 55.0);
 console.log(valorFinalDoProduto);
+---
 
+### ✅ Exemplo 4 – Usando conceito de Função
+// Biblioteca
+function calcularDesconto(valorDoDesconto, valorDoProduto) {
+  // Cálculo do Desconto
+  const resultadoDoCalculo = valorDoProduto - valorDoDesconto
+
+  // Retorno do Calculo do Desconto
+  return resultadoDoCalculo
+}
+
+// Script
+const valorFinalDaTrackinas = calcularDesconto(1.55, 3.55)
+const valorFinalDoPlayStation = calcularDesconto(1500.00, 4000.00)
+const valorFinalDaBicicleta = calcularDesconto(995.00, 19995.38)
+
+console.log(valorFinalDaTrackinas)
+console.log(valorFinalDoPlayStation)
+console.log(valorFinalDaBicicleta)
+
+---
 
 
 ## 🧪 Como executar o código no VS Code
