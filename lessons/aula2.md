@@ -61,3 +61,21 @@ const valorFinalDoProduto = calculaDesconto(10.0, 55.0);
 console.log(valorFinalDoProduto);
 
 
+
+## 🧪 Como executar o código no VS Code
+
+### Passo a passo:
+
+1. **Crie um arquivo chamado `script.js`**  
+   Copie e cole o código acima dentro desse arquivo.
+
+2. **Abra o terminal no Visual Studio Code**  
+   - Vá no menu: `Terminal > Novo Terminal`  
+   - Ou use o atalho de teclado: `Ctrl + aspas` (Ctrl + `)
+
+3. **Execute o arquivo com Node.js**  
+   No terminal, digite o seguinte comando e pressione Enter:
+
+   ```bash
+   node script.js
+
