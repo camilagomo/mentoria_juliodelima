@@ -32,6 +32,7 @@ const resultadoEmReais = quantidadeDeDolares * valorReal;
 
 // Escreva o resultado da sua conta
 console.log(resultadoEmReais);
+```
 
 ---
 
