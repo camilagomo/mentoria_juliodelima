@@ -21,7 +21,25 @@ Nesta aula, colocamos em prática conceitos essenciais de **lógica de programa�
 
 ### ✅ Exemplo 1 – 
 
+// Define função para calcular média
+function calculaMedia(N1, N2, N3) {
+  const mediaCalculada = (N1 + N2 + N3) / 3;
+  return mediaCalculada;
+}
 
+// Realiza cálculo da Média chamando função calculaMedia e passa valores para parâmetros "N"
+const media = calculaMedia(5, 10, 25);
+
+// Exibe o resultado em tela
+console.log(media); // Exibe: 13.333...
+
+---
+function calculaMedia(N1, N2, N3) {
+  const mediaCalculada = (N1 + N2 + N3) / 3;
+  console.log(mediaCalculada); // Mostra direto dentro da função
+}
+
+calculaMedia(5, 10, 25); // Aqui não salva o valor, só mostra
 
 
 ## 🧪 Como executar o código no VS Code
