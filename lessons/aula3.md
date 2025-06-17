@@ -10,10 +10,9 @@
 Nesta aula, colocamos em prática conceitos essenciais de **lógica de programação**, com foco em:
 
 - Reforçando conceito de funções
+- Uso de Strings para concatenar valores
 - 
-- 
-- 
-- 
+
 
 ---
 
@@ -46,6 +45,17 @@ function calculaMedia(N1, N2, N3) {
 
 calculaMedia(5, 10, 25); // Aqui não salva o valor, só mostra
 ```
+### ✅ Exemplo 3 – Concatenando valores
+```javascript
+//Crie a função que calcula a média
+function...
+
+//Usar a função
+const resultadoDaMediaDaCamila = calculaMedia(5,8,9)
+console.log('Media da Camila: ' + resultadoDaMediaDaCamila)
+
+```
+
 
 ## 🧪 Como executar o código no VS Code
 
