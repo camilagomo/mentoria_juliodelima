@@ -1,4 +1,4 @@
-# 💰 Aula 3 – [Aula...]
+# 💰 Aula 3 – Reforçando uso de funções, conceito de Strings e concatenar valores
 
 📅 **Data:** 17/06/2025  
 📚 **Mentoria:** [Mentoria 2.0 – Júlio de Lima](https://mentoria.juliodelima.com.br/)
