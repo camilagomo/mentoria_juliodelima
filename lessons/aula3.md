@@ -94,7 +94,26 @@ console.log(maioridadeDoRonaldo)
 const maioridadeDoLucas = identificarMaioridade('Lucas', 14)
 console.log(maioridadeDoLucas)
 ```
+```javascript
 
+function linguagemDosGatosECachorros(animal) {
+  if (animal == 'cachorro')
+    return 'au au'
+  else if (animal == 'gato')
+    return 'miau'
+  else 
+    return ''
+}
+
+const linguagemDoCachorro = linguagemDosGatosECachorros('cachorro')
+console.log(linguagemDoCachorro)
+
+const linguagemDoGato = linguagemDosGatosECachorros('gato')
+console.log(linguagemDoGato)
+
+const linguagemDoPapagaio = linguagemDosGatosECachorros('papagaio')
+console.log(linguagemDoPapagaio)
+```
 
 ## 🧪 Como executar o código no VS Code
 
