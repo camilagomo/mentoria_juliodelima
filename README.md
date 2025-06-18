@@ -18,7 +18,7 @@ Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaSc
 - [Aula 2 – Estrutura Condicional e Funções](lessons/aula2.md)  
   Aprendizado sobre operadores lógicos e funções simples aplicadas em problemas reais.
 
-- [Aula 3 – Funções, Condicional e Objetos](lessons/aula3.md)
+- [Aula 3 – Funções, Condicional e Objetos](lessons/aula3.md)  
   Reforçando uso de funções, Condicional e Objetos
 
 ## Aulas futuras
