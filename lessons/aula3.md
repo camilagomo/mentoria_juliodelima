@@ -114,6 +114,7 @@ console.log(linguagemDoGato)
 const linguagemDoPapagaio = linguagemDosGatosECachorros('papagaio')
 console.log(linguagemDoPapagaio)
 ```
+
 ```javascript
 
 
@@ -127,7 +128,7 @@ function identificarClienteVip(valorDoPedido, tipoCliente, descontoDoCliente) {
     return `Você cliente ${tipoClienteFormatado}: tem desconto de 10%. Valor final: R$ ${valorComDesconto.toFixed(2)}`;
   } 
   else if (tipoClienteFormatado === 'NÃO VIP') {
-    return `Você cliente ${tipoClienteFormatado}: não tem desconto de 10%. Torne-se cliente VIP! `;
+    return `Você cliente ${tipoClienteFormatado}: não tem desconto. Valor total da compra: R$ ${valorDoPedido.toFixed(2)}`;
   } 
   else {
     return `Tipo de cliente inválido.`;
@@ -139,7 +140,7 @@ const valorDoPedido = 500.0;
 // Informe o Desconto do Cliente
 const descontoDoCliente = 0.1;
 // Tipo do Cliente
-const tipoCliente = 'não vip';
+const tipoCliente = 'vip';
 
 const resultado = identificarClienteVip(valorDoPedido, tipoCliente, descontoDoCliente);
 console.log(resultado);
@@ -148,7 +149,7 @@ console.log(resultado);
 //Retornos no código:
 // const tipoCliente = 'salada' - Tipo de cliente inválido.
 // const tipoCliente = 'vip';   - Você cliente VIP: tem desconto de 10%. Valor final: R$ 450.00
-// const tipoCliente = 'não vip'- Você cliente NÃO VIP: não tem desconto de 10%. Torne-se cliente VIP!
+// const tipoCliente = 'não vip'- Você cliente NÃO VIP: não tem desconto. Valor total da compra: R$ 500.00
 
 ```
 
