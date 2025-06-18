@@ -114,6 +114,43 @@ console.log(linguagemDoGato)
 const linguagemDoPapagaio = linguagemDosGatosECachorros('papagaio')
 console.log(linguagemDoPapagaio)
 ```
+```javascript
+
+
+function identificarClienteVip(valorDoPedido, tipoCliente, descontoDoCliente) {
+  // Converte para padrão (tudo maiúsculo) para evitar erro de digitação
+  const tipoClienteFormatado = tipoCliente.trim().toUpperCase();
+
+  // Condição de Desconto: Se cliente VIP, aplica 10% no valorDoPedido
+  if (tipoClienteFormatado === 'VIP') {
+    const valorComDesconto = valorDoPedido - (valorDoPedido * descontoDoCliente);
+    return `Você cliente ${tipoClienteFormatado}: tem desconto de 10%. Valor final: R$ ${valorComDesconto.toFixed(2)}`;
+  } 
+  else if (tipoClienteFormatado === 'NÃO VIP') {
+    return `Você cliente ${tipoClienteFormatado}: não tem desconto de 10%. Torne-se cliente VIP! `;
+  } 
+  else {
+    return `Tipo de cliente inválido.`;
+  }
+}
+
+// Informe o valor do pedido
+const valorDoPedido = 500.0;
+// Informe o Desconto do Cliente
+const descontoDoCliente = 0.1;
+// Tipo do Cliente
+const tipoCliente = 'não vip';
+
+const resultado = identificarClienteVip(valorDoPedido, tipoCliente, descontoDoCliente);
+console.log(resultado);
+
+
+//Retornos no código:
+// const tipoCliente = 'salada' - Tipo de cliente inválido.
+// const tipoCliente = 'vip';   - Você cliente VIP: tem desconto de 10%. Valor final: R$ 450.00
+// const tipoCliente = 'não vip'- Você cliente NÃO VIP: não tem desconto de 10%. Torne-se cliente VIP!
+
+```
 
 ## 🧪 Como executar o código no VS Code
 
