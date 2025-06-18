@@ -46,7 +46,7 @@ function calculaMedia(N1, N2, N3) {
 
 calculaMedia(5, 10, 25); // Aqui não salva o valor, só mostra
 ```
-### ✅ Exemplo 3 – Concatenando valores
+### ✅ Exemplo 3 – Concatenando valores usando Strings
 ```javascript
 
 // Desenhando a Função!
