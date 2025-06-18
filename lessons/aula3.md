@@ -11,7 +11,8 @@ Nesta aula, colocamos em prática conceitos essenciais de **lógica de programa�
 
 - Reforçando conceito de funções
 - Uso de Strings para concatenar valores
-- 
+- Condicional
+- Objetos
 
 
 ---
