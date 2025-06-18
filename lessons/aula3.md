@@ -48,12 +48,20 @@ calculaMedia(5, 10, 25); // Aqui não salva o valor, só mostra
 ```
 ### ✅ Exemplo 3 – Concatenando valores
 ```javascript
-//Crie a função que calcula a média
-function...
 
-//Usar a função
-const resultadoDaMediaDaCamila = calculaMedia(5,8,9)
-console.log('Media da Camila: ' + resultadoDaMediaDaCamila)
+// Desenhando a Função!
+function calcularMedia(primeiroNumero, segundoNumero, terceiroNumero) {
+  const somaDosTresValores = primeiroNumero + segundoNumero + terceiroNumero
+  const resultadoDaMedia = somaDosTresValores / 3
+  return resultadoDaMedia
+}
+
+// Usar a Função!
+const resultadoDaMediaDoMarcio = calcularMedia(5, 7, 9)
+console.log('Média do Márcio: ' + resultadoDaMediaDoMarcio)
+
+const resultadoDaMediaDaBea = calcularMedia(4, 8, 12)
+console.log('Média da Bea: ' + resultadoDaMediaDaBea)
 
 ```
 
