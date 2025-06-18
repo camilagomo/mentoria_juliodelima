@@ -64,6 +64,36 @@ const resultadoDaMediaDaBea = calcularMedia(4, 8, 12)
 console.log('Média da Bea: ' + resultadoDaMediaDaBea)
 
 ```
+### ✅ Exemplo 4 – Estrutura Condicional
+
+```javascript
+
+function identificarMaioridade(nome, idade) {
+  // Se a idade fornecida for maior ou igual a 18 retorne 'Maior' senão retorne 'Menor'
+  if (idade >= 50) 
+    return `Maioridade do ${nome}: Maduro`
+  else if (idade >= 18)
+    return `Maioridade do ${nome}: Adulto`
+  else if (idade >= 12) 
+    return `Maioridade do ${nome}: Adolescente`
+  else
+    return `Maioridade do ${nome}: Criança`
+}
+
+// >, >=, <, <=, ==, !=
+
+const maioridadeDaCelina = identificarMaioridade('Celina', 51)
+console.log(maioridadeDaCelina)
+
+const maioridadeDoMarcos = identificarMaioridade('Marcos', 46)
+console.log(maioridadeDoMarcos)
+
+const maioridadeDoRonaldo = identificarMaioridade('Ronaldo', 9)
+console.log(maioridadeDoRonaldo)
+
+const maioridadeDoLucas = identificarMaioridade('Lucas', 14)
+console.log(maioridadeDoLucas)
+```
 
 
 ## 🧪 Como executar o código no VS Code
