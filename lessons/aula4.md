@@ -121,3 +121,57 @@ const tabuadaDoUm = [
 
 console.log(tabuadaDoUm[2][2])
 ```
+
+```javascript
+
+/*
+  Quero uma função capaz de receber uma lista de objetos que representam
+  sites em uma busca do Google e então verificar se um deles possui
+  a URL que eu espero. Se sim, escrever teste passou, se não escrever teste falhou.
+  Decompor:
+  - Receber uma lista de objetos
+  - Receber qual indice deseja-se verificar
+  - Receber a URL que desejo comparar
+  - Comparar a URL recebida com a URL da lista
+  - Escrever teste passou se a URL que eu esperava estiver no indice que eu pedi
+  - Escrever teste falhou se a URL for diferente
+  Sequencia:
+  1. Receber uma lista de objetos
+  2. Receber a URL que desejo comparar
+  3. Receber qual indice deseja-se verificar
+  4. Comparar a URL recebida com a URL da lista
+  5. Escrever teste passou se a URL que eu esperava estiver no indice que eu pedi
+  6. Escrever teste falhou se a URL for diferente
+*/
+
+// Desenhar a função:
+function verificarURLPorIndice(listaDeSites, indice, urlEsperada) { // Sequencia 1, 2 e 3
+  if (urlEsperada === listaDeSites[indice].url) { // Sequencia 4
+    console.log(`Teste passou, afinal ${urlEsperada} é igual a ${listaDeSites[indice].url}`) // Sequencia 5
+  } else {
+    console.log(`Teste falhou, afinal ${urlEsperada} é diferente de ${listaDeSites[indice].url}`) // Sequencia 6
+  }
+}
+
+// Usar a função:
+
+const resultadosDoGoogle = [
+  {
+    url: 'https://mentoria.juliodelima.com.br',
+    nome: 'Mentoria 2.0',
+    descricao: 'Conheça o Júlio de Lima, seu futuro mentor. Júlio de Lima é Principal QA Engineer, possui 15 anos de experiência em testes de software envolvendo aplicações'
+  },
+  {
+    nome: 'Youtube',
+    url: 'https://youtube.com/juliodelimas',
+    descricao: 'Melhor canal de testes de software do World todo!'
+  },
+  {
+    nome: 'Instagram',
+    url: 'https://instagram.com/juliodelimasinsta',
+    descricao: 'Melhor perfil de testes de software do World todo!'
+  }
+]
+
+verificarURLPorIndice(resultadosDoGoogle, 2, 'https://instagram.com/juliodelimasinsta')
+```
