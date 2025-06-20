@@ -20,6 +20,24 @@ Nesta aula, colocamos em prática conceitos essenciais de **lógica de programa�
 ### ✅ Exemplo 1 – 
 
 ```javascript
+// Desenhando função
+function calcularEAplicarDesconto(valorDoPedido, tipoDoCliente) {
+  let valorFinalDoPedido
 
+  if (tipoDoCliente === 'vip' || tipoDoCliente === 'VIP') {
+    valorFinalDoPedido = valorDoPedido - (valorDoPedido * 10 / 100)
+  } else {
+    valorFinalDoPedido = valorDoPedido
+  }
+
+  return valorFinalDoPedido
+}
+
+// Usar!
+const resultadoComDesconto = calcularEAplicarDesconto(500.00, 'vip')
+console.log(resultadoComDesconto)
+
+const resultadoSemDesconto = calcularEAplicarDesconto(500.00, '')
+console.log(resultadoSemDesconto)
 
 ```
