@@ -11,6 +11,7 @@ Nesta aula, colocamos em prática conceitos essenciais de **lógica de programa�
 - Reforçando conceito de funções
 - Condicional
 - Declarando variáveis com let e const e principais diferenças
+- Tipos de Dados: Int, String, Float, Boolean, Objeto
 
 
 ---
