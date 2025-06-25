@@ -63,3 +63,22 @@ console.log(comoCachorroSeComunica)
 
 ## 📦 No terminal, ao chamar node .\test\comunicacao.test.js 
 Função retorna valor "au au" no console
+
+
+## 📦 Escrevendo testes com biblioteca mocha
+```javascript
+npm i mocha
+
+```
+Será criada algumas dependência no package.json com o Mocha*
+
+```javascript
+const {comunicacaoDosAnimais} = require ('../src/comunicacao.js')
+
+describe('Comunicacao', function() {
+    it('Validar que Cachorro se Comunica com auau', function(){
+        //Teste
+    })
+})
+```
+
