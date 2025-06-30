@@ -24,7 +24,6 @@ Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaSc
 - [Aula 4 – Uso de funções, condicionais e declaração de variáveis](lessons/aula4.md)
 
 - [Aula 5 – Estruturando um projeto com VsCode e Node](lessons/aula5.md)
-
   Instalando Vscode e Node para execução de testes unitários
 
 - [Aula 6 – Estruturando um projeto e aplicando boas práticas de testes](lessons/aula6.md)  
