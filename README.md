@@ -21,10 +21,13 @@ Serão 6 aulas focadas em **lógica de programação** e **fundamentos do JavaSc
 - [Aula 3 – Funções, Condicional e Objetos](lessons/aula3.md)  
   Reforçando uso de funções, Condicional e Objetos
 
-## Aulas futuras
-- Aula 4 – *(em breve)*
-- Aula 5 – *(em breve)*
-- Aula 6 – *(em breve)*
+- [Aula 4 – Uso de funções, condicionais e declaração de variáveis](lessons/aula4.md)
+
+- [Aula 5 – Estruturando um projeto com VsCode e Node](lessons/aula5.md)
+  Instalando Vscode e Node para execução de testes unitários
+
+- [Aula 6 – Funções, Condicional e Objetos](lessons/aula6.md)  
+  Aplicando cobertura de sentença, cobertura de decisão e boas práticas de testes unitários
 
 
 ---
