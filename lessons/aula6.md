@@ -9,8 +9,7 @@
 Nesta aula, colocamos em prática conceitos essenciais de **lógica de programação**, com foco em:
 
 - Estruturar o projeto com pastas organizadas (src e test)
-- Importar a função em um arquivo separado para testes
-- Aplicando conceitos de testes unitários
+- Aplicando conceitos de testes unitários, cobertura de sentença e cobertura de decisão
 - Boas práticas de versionamento de código com GITHUB
 
 ---
