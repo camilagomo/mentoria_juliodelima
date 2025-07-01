@@ -17,5 +17,24 @@ Nesta aula, colocamos em prática conceitos essenciais de **lógica de programa�
 ## Estrutura do Projeto
 ![image](https://github.com/user-attachments/assets/39630559-1c5c-4d28-8547-abe279d1dbe1)
 
+comunicacao.js
+```javascript
+function linguagemDosGatosECachorros(animal) {
+  if (animal == 'cachorro')
+    return 'woff woff'
+  else if (animal == 'gato')
+    return 'miau'
+  else 
+    return 'Informe gato ou cachorro'
+}
 
+module.exports = {
+    linguagemDosGatosECachorros
+}
+
+```
+
+comunicacao.test.js
+
+![image](https://github.com/user-attachments/assets/74faa128-bd7f-41dd-975d-c774bead6668)
 
